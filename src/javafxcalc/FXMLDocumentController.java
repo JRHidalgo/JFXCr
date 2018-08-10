@@ -19,12 +19,16 @@ import javafx.scene.control.Label;
  */
 public class FXMLDocumentController implements Initializable {
     
-    @FXML
     private Label label;
-    @FXML
-    private Button button;
     
-    @FXML
+    private boolean digito = false;
+    private boolean punto = false;
+    private int numOperandos = 0;
+    private double operando1, operando2;
+    private char operador = ' ';
+    
+    
+    
     private void handleButtonAction(ActionEvent event) {
         System.out.println("You clicked me!");
         label.setText("Hello World!");
@@ -34,5 +38,65 @@ public class FXMLDocumentController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    @FXML
+    private void clic_Siete(ActionEvent event) {
+    }
+
+    @FXML
+    private void clic_Dos(ActionEvent event) {
+    }
+
+    @FXML
+    private void clic_Div(ActionEvent event) {
+    }
+
+    @FXML
+    private void clic_Mult(ActionEvent event) {
+    }
+
+    @FXML
+    private void clic_Cuatro(ActionEvent event) {
+    }
+
+    @FXML
+    private void clic_Tres(ActionEvent event) {
+    }
+
+    @FXML
+    private void clic_Seis(ActionEvent event) {
+    }
+
+    @FXML
+    private void clic_Mas(ActionEvent event) {
+    }
+
+    @FXML
+    private void clic_Cero(ActionEvent event) {
+    }
+
+    @FXML
+    private void clic_Igual(ActionEvent event) {
+    }
+
+    @FXML
+    private void clic_Resta(ActionEvent event) {
+    }
+
+    @FXML
+    private void clic_Punto(ActionEvent event) {
+    }
+
+    @FXML
+    private void clic_Cinco(ActionEvent event) {
+    }
+
+    @FXML
+    private void clic_Ocho(ActionEvent event) {
+    }
+
+    @FXML
+    private void clic_Uno(ActionEvent event) {
+    }
     
 }
